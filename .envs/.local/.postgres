@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=life_tracker
+POSTGRES_USER=mmzOmcBtBdXeloyQKsYJeuzGLhWbtXPL
+POSTGRES_PASSWORD=0FfwewnddTWVGJXSQyDoICjXrprPIgMrQQUhX8go5NeSAoZJXBsCq1AHfifn8ZBm
