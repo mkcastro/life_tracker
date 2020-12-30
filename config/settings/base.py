@@ -41,9 +41,7 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
 
-DATABASES = {
-    "default": env.db("DATABASE_URL", default="postgres:///life_tracker")
-}
+DATABASES = {"default": env.db("DATABASE_URL", default="postgres:///life_tracker")}
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
 
 # URLS
@@ -79,6 +77,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "life_tracker.users.apps.UsersConfig",
     # Your stuff: custom apps go here
+    "mptt",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
